@@ -1,0 +1,58 @@
+/* pages/snake/snake.wxss */
+.score{
+  display: flex;
+}
+.title{
+  flex: 1;
+  background: rgb(255, 192, 192);
+  height: 150rpx;
+  margin: 40rpx 20rpx 40rpx 40rpx;
+  text-align: center;
+  font-size: 70rpx;
+  line-height: 150rpx;
+  color: white;
+  border-radius: 20rpx;
+}
+.scoredetail{
+  flex: 1;
+  background: #BDC3FD;
+  height: 150rpx;
+  margin: 40rpx 20rpx;
+  text-align: center;
+  color: rgb(255, 254, 254);
+  border-radius: 20rpx;
+}
+.scoredesc{
+  line-height: 60rpx;
+}
+.scorenumber{
+  line-height: 70rpx;
+}
+.scoredetail:last-child{
+  margin-right: 40rpx;
+}
+.ground{
+  width: 660rpx;
+  height: 840rpx;
+  margin-left: 50rpx;
+}
+.rows{
+  width: 660rpx;
+  height: 30rpx;
+}
+.block{
+  background: rgb(33, 220, 217);
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+}
+.control{
+  width: 100%;
+  height: 100%;
+}
+.block_1{
+  background: rgb(228, 105, 228);
+}
+.block_3{
+  background: rgb(61, 255, 77);
+}
